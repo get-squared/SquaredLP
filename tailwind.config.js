@@ -58,7 +58,7 @@ export default {
           `linear-gradient(90.15deg, ${theme("colors.dark.500")} 0.25%, ${theme("colors.teal.500")} 99.76%)`,
         ],
         "gradient-medium": [
-          `linear-gradient(51.45deg, ${theme("colors.dark.800")} 0.05%, ${theme("colors.dark.400")} 99%)`,
+          `linear-gradient(51.45deg, ${theme("colors.dark.800")} 0.05%, ${theme("colors.dark.500")} 99%)`,
         ],
         "gradient-dark": [
           `linear-gradient(192.45deg, ${theme("colors.dark.900")} -0.41%, ${theme("colors.dark.700")} 94.4%)`,
