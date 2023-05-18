@@ -7,24 +7,27 @@ export default {
     extend: {
       colors: {
         'dark': {
-          600: '#0E5979',
-          700: '#0E5979',
-          800: '#0E3850',
+          500: '#265078',
+          600: '#183F63',
+          700: '#10304E',
+          800: '#0B2741',
+          900: '#071E2B ',
         },
         'teal': {
-          100: '#E1FFF1',
-          200: '#AEF3EC',
-          300: '#70DBDD',
-          400: '#34B9C1',
-          500: '#239BA3',
+          100: '#C5F5FA',
+          200: '#ADF7FF',
+          300: '#90F0F7',
+          400: '#74DDE7',
+          500: '#4EC5D0',
         },
         'grey': {
           100: '#EFF6FF',
-          200: '#DEF9F3',
+          200: '#DFE9F3',
+          300: '#D8E1EA',
         },
         'purple': {
           100: '#EADBFF',
-          200: '#D6C0F5',
+          200: '#CAA4FF',
           300: '#B47EFF',
           400: '#955EDE',
           500: '#7D3ED1',
@@ -47,6 +50,20 @@ export default {
         'caption1': '14px',
         'caption2': '13px',
       },
+      backgroundImage: (theme) => ({
+        "gradient-light1": [
+          `linear-gradient(90.15deg, ${theme("colors.dark.500")} 0.25%, ${theme("colors.teal.400")} 99.76%)`,
+        ],
+        "gradient-light2": [
+          `linear-gradient(90.15deg, ${theme("colors.dark.500")} 0.25%, ${theme("colors.teal.500")} 99.76%)`,
+        ],
+        "gradient-medium": [
+          `linear-gradient(51.45deg, ${theme("colors.dark.800")} 0.05%, ${theme("colors.dark.400")} 99%)`,
+        ],
+        "gradient-dark": [
+          `linear-gradient(192.45deg, ${theme("colors.dark.900")} -0.41%, ${theme("colors.dark.700")} 94.4%)`,
+        ],
+      }),
     },
   },
   plugins: [],
