@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer className="bg-dark-800 py-16 px-20 h-[27.438rem] max-[550px]:py-10 max-[550px]:px-14 max-[375px]:px-10 max-[750px]:px-10">
       <div className="flex justify-between mb-[8.438rem] max-[550px]:mb-14">
-        <div className="flex justify-between max-[700px]:w-1/2 w-2/6 gap-2 max-[550px]:flex-col max-[550px]:gap-4">
+        <div className="flex justify-between max-[700px]:w-1/2 w-[30%] gap-2 max-[550px]:flex-col max-[550px]:gap-4">
           <div className="flex flex-col gap-[1.875rem] max-[550px]:gap-4">
             <Link to={'/'}><p className="font-sans text-xl text-grey-300">Home</p></Link>
             <Link to={'/product'}><p className="font-sans text-xl text-grey-300">Product</p></Link>

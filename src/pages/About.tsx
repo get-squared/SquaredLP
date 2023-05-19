@@ -10,7 +10,7 @@ const mockedArray = [
 ];
 
 const getShapeStyle = (index: number) => {
-  if(index % 2 == 0) return 'cardMask-second';
+  if (index % 2 == 0) return 'cardMask-second';
   if (index % 3 == 0) return 'cardMask-third';
   return 'cardMask-first';
 };
@@ -29,35 +29,41 @@ export const About = () => {
       </div>
 
       <div className="xl:mb-[21.875rem] xl:w-[66.5%] xl:mx-auto sm:mb-20 mb-8 ">
-        <h3 className="font-bold text-center text-teal-400 lg:text-h3 text-h5">
+        <h3 className="font-semibold text-center text-teal-400 lg:text-h3 text-h5">
           More tools don’t correlate to greater impact
         </h3>
-        <p className="text-center text-p text-grey-300">
+        <p className="text-center text-white text-p">
           Ecommerce solutions have not innovated at the speed of market need,
           resulting in lots of bespoke solutions that fail to improve business performance
         </p>
       </div>
 
       <div className="xl:mb-[21.875rem] xl:w-[66.5%] xl:mx-auto sm:mb-20 mb-8 ">
-        <h3 className="font-bold text-center text-teal-400 lg:text-h3 text-h5">
+        <h3 className="font-semibold text-center text-teal-400 lg:text-h3 text-h5">
           The digital shelf and consumer demand kept rising
         </h3>
-        <p className="text-center text-p text-grey-300">
+        <p className="text-center text-white text-p">
           We thought it was time to build a solution that scales in order
           to reduce customer costs and empower greater operational efficiency
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-10 mb-16 xl:gap-32 lg:gap-16 lg:mb-48">
-        {mockedArray.map((person, index) =>
-          <PersonCard
-            name={person.name}
-            title={person.title}
-            style={getShapeStyle(index + 1)}
-            img={person.img}
-            key={`${index}${person.name}`}
-          />,
-        )}
+      <div className="flex flex-col gap-10 mb-16 xl:gap-32 lg:gap-16 lg:mb-48">
+        <h3 className="font-semibold text-center text-purple-300 lg:text-h3 text-h4">
+          Our leaders
+        </h3>
+        <div className="flex flex-wrap justify-center gap-10 xl:gap-32 lg:gap-16">
+          {mockedArray.map((person, index) =>
+            <PersonCard
+              name={person.name}
+              title={person.title}
+              style={getShapeStyle(index + 1)}
+              img={person.img}
+              key={`${index}${person.name}`}
+            />,
+          )}
+        </div>
+
       </div>
 
     </section>
