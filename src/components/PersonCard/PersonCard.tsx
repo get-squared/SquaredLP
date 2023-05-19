@@ -1,4 +1,5 @@
 import { FC } from "react";
+import './PersonCard.css';
 
 interface IPersonCard{
     name: string,
@@ -10,7 +11,7 @@ interface IPersonCard{
 export const PersonCard: FC<IPersonCard> = ({ name, title, style, img }) => {
   return(
     <div className="flex flex-col items-center">
-      <img src={img} alt={`${name}-${title}`} className={`${style} mb-7 w-56 h-56`}/>
+      <img src={img} alt={`${name}-${title}`} className={`${style} cardMask mb-7`}/>
       <h5 className="mb-2 text-purple-300 text-h5">
         {name}
       </h5>

@@ -9,11 +9,17 @@ const mockedArray = [
   { name: 'Gordon Gekko', title: 'Trader', img: mockPic },
 ];
 
+const getShapeStyle = (index: number) => {
+  if(index % 2 == 0) return 'cardMask-second';
+  if (index % 3 == 0) return 'cardMask-third';
+  return 'cardMask-first';
+};
+
 export const About = () => {
   return (
     <section className="px-6 lg:px-24 sm:px-9">
       <div className="flex flex-col items-center lg:mb-[7.5rem] mb-10 gap-8">
-        <h5 className="text-purple-300 text-h5">Our founding team started in </h5>
+        <h5 className="text-center text-purple-300 text-h5">Our founding team started in </h5>
         <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h4">Big data and competitive intelligence</h1>
         <h6 className="text-center text-white text-p font-base">
           We watched customers pay for insights, not intelligence.
@@ -42,12 +48,12 @@ export const About = () => {
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-32 mb-16 lg:mb-48">
-        {mockedArray.map((person, index) => 
+      <div className="flex flex-wrap justify-center gap-10 mb-16 xl:gap-32 lg:gap-16 lg:mb-48">
+        {mockedArray.map((person, index) =>
           <PersonCard
             name={person.name}
             title={person.title}
-            style={(index + 1) % 2 === 0 ? 'cardImage-even' : 'cardImage-odd'}
+            style={getShapeStyle(index + 1)}
             img={person.img}
             key={`${index}${person.name}`}
           />,
