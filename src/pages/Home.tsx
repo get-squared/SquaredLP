@@ -5,17 +5,17 @@ import { QualityIcon, ScaleIcon, TimeSavings } from "../assets";
 export const Home = () => {
   return (
     <section className="px-6 lg:px-24 sm:px-9">
-      <div className="flex items-center justify-center mb-10 lg:mb-[7.5rem]">
-        <div className="absolute z-10 flex flex-col items-center gap-8">
-          <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h4">Turn artificial into real intelligence</h1>
-          <h6 className="text-center text-white text-h6 font-base">Maximize your ecommerce research and content creation process with Squared</h6>
+      <div className="flex items-center justify-center mb-16 lg:mb-[7.5rem]">
+        <div className="absolute z-10 flex flex-col items-center gap-8 py-0 lg:px-24 px-9">
+          <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h5">Turn artificial into real intelligence</h1>
+          <h6 className="text-center text-white sm:text-h6 font-base text-p">Maximize your ecommerce research and content creation process with Squared</h6>
           <Link to={'/contact'}>
             <button className="px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
               Schedule Call
             </button>
           </Link>
         </div>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="w-3/5 2xl:w-[63%]" id="blobSvg">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="sm:w-3/5 w-full 2xl:w-[63%]" id="blobSvg">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
               <stop offset="0%" style={{ stopColor: "rgb(126, 237, 244)" }}></stop>
