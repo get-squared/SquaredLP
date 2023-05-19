@@ -99,7 +99,6 @@ export const Product = () => {
       </div>
 
       <div className="flex flex-col gap-5 bg-gradient-light1 mb-24 lg:p-[3.75rem] p-6 rounded-[32px]">
-
         <div className="flex items-center justify-between gap-2">
           <LampIcon />
           <h3 className="text-white text-h4">Did you know 75% of Amazon listings do not pass best practice evaluations?</h3>
