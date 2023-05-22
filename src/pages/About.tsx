@@ -28,7 +28,7 @@ export const About = () => {
         </h6>
       </div>
 
-      <div className="flex items-center justify-center mb-8 xl:mb-32 sm:mb-20 ">
+      <div className="flex items-center justify-center mb-8">
         <div className="absolute z-10 flex flex-col items-center xl:w-[66.5%] xl:mx-auto py-0 lg:px-24 px-9">
           <h3 className="font-semibold text-center text-white lg:text-h3 text-h5">
             More tools don’t correlate to greater impact
@@ -38,7 +38,7 @@ export const About = () => {
             resulting in lots of bespoke solutions that fail to improve business performance
           </p>
         </div>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="sm:w-1/2 w-full 2xl:w-[55%]" id="blobSvg1">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="sm:w-1/2 w-[95%] 2xl:w-[55%]" id="blobSvg1">
           <defs>
             <linearGradient id="gradient1" x1="-74.1471" y1="199.341" x2="549.731" y2="-84.1057" gradientUnits="userSpaceOnUse">
               <stop stop-color="#183F63" />
@@ -51,7 +51,7 @@ export const About = () => {
         </svg>
       </div>
 
-      <div className="flex items-center justify-center mb-8 xl:mb-32 sm:mb-20 ">
+      <div className="flex items-center justify-center mb-8">
         <div className="absolute z-10 flex flex-col items-center xl:w-[66.5%] xl:mx-auto py-0 lg:px-24 px-9">
           <h3 className="font-semibold text-center text-white lg:text-h3 text-h5">
             The digital shelf and consumer demand kept rising
@@ -61,7 +61,7 @@ export const About = () => {
             to reduce customer costs and empower greater operational efficiency
           </p>
         </div>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="sm:w-1/2 w-full 2xl:w-[55%]" width="100%" id="blobSvg2" transform="rotate(-8)">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="sm:w-1/2 w-[95%] 2xl:w-[55%]" width="100%" id="blobSvg2" transform="rotate(-8)">
           <defs>
             <linearGradient id="gradient2" x1="37.9999" y1="530" x2="14.6552" y2="-11.7763" gradientUnits="userSpaceOnUse">
               <stop stop-color="#183F63" />
