@@ -33,7 +33,7 @@ export const About = () => {
           <h3 className="font-semibold text-center text-white lg:text-h3 text-h5">
             More tools don’t correlate to greater impact
           </h3>
-          <p className="text-center text-white text-p">
+          <p className="text-center text-white font-inter text-p">
             Ecommerce solutions have not innovated at the speed of market need,
             resulting in lots of bespoke solutions that fail to improve business performance
           </p>
@@ -56,7 +56,7 @@ export const About = () => {
           <h3 className="font-semibold text-center text-white lg:text-h3 text-h5">
             The digital shelf and consumer demand kept rising
           </h3>
-          <p className="text-center text-white text-p">
+          <p className="text-center text-white font-inter text-p">
             We thought it was time to build a solution that scales in order
             to reduce customer costs and empower greater operational efficiency
           </p>

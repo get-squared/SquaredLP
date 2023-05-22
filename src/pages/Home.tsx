@@ -8,7 +8,7 @@ export const Home = () => {
       <div className="flex items-center justify-center mb-16 lg:mb-[7.5rem]">
         <div className="absolute z-10 flex flex-col items-center gap-8 py-0 lg:px-24 px-9">
           <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h5">Turn artificial into real intelligence</h1>
-          <h6 className="text-center text-white sm:text-h6 font-base text-p">Maximize your ecommerce research and content creation process with Squared</h6>
+          <h6 className="text-center text-white font-inter sm:text-h6 font-base text-p">Maximize your ecommerce research and content creation process with Squared</h6>
           <Link to={'/contact'}>
             <button className="px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
               Schedule Call
@@ -52,21 +52,21 @@ export const Home = () => {
         <div className="flex flex-col justify-center items-center w-[19.5rem] text-center">
           <TimeSavings />
           <h5 className="mt-4 mb-3 text-white lg:mt-10 text-h5">Time savings</h5>
-          <p className="leading-7 text-grey-300 lg:text-p text-caption1">
+          <p className="leading-7 text-grey-300 lg:text-p text-caption1 font-inter">
             Create listings in minutes! Save hours of work by streamlining the product, keyword research and content creation process
           </p>
         </div>
         <div className="flex flex-col justify-center items-center w-[19.5rem] text-center">
           <QualityIcon />
           <h5 className="mt-4 mb-3 text-white lg:mt-10 text-h5">Quality</h5>
-          <p className="leading-7 text-grey-300 lg:text-p text-caption1">
+          <p className="leading-7 text-grey-300 lg:text-p text-caption1 font-inter">
             Quality in, quality out! Our AI has learned to build listings from expert content writers
           </p>
         </div>
         <div className="flex flex-col justify-center items-center w-[19.5rem] text-center ">
           <ScaleIcon />
           <h5 className="mt-4 mb-3 text-white lg:mt-10 text-h5">Scale</h5>
-          <p className="leading-7 text-grey-300 lg:text-p text-caption1">
+          <p className="leading-7 text-grey-300 lg:text-p text-caption1 font-inter">
             Create 100s of best-in-class listings in moments and then make sure to share them with your colleagues!
           </p>
         </div>
