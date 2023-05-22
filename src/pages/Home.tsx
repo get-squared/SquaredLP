@@ -1,21 +1,19 @@
-import { Link } from "react-router-dom";
-
 import { QualityIcon, ScaleIcon, TimeSavings } from "../assets";
+import { Section, UniversalButton } from "../components";
 
 export const Home = () => {
   return (
-    <section className="px-6 lg:px-24 sm:px-9">
+    <Section>
       <div className="flex items-center justify-center mb-4 lg:mb-10">
         <div className="absolute z-10 flex flex-col items-center gap-8 py-0 lg:px-24 px-9">
           <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h5">Turn artificial into real intelligence</h1>
           <h6 className="text-center text-white font-inter sm:text-h6 font-base text-p">Maximize your ecommerce research and content creation process with Squared</h6>
-          <Link to={'/contact'}>
-            <button className="px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
-              Schedule Call
-            </button>
-          </Link>
+          <UniversalButton
+            link="/contact"
+            title="Schedule Call"
+          />
         </div>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 50 500 450" className="sm:w-[70%] w-full 2xl:w-[63%]" id="blobSvg">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 50 500 450" className="sm:w-[70%] w-full 2xl:w-[55%]" id="blobSvg">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
               <stop offset="0%" style={{ stopColor: "rgb(126, 237, 244)" }}></stop>
@@ -80,15 +78,14 @@ export const Home = () => {
         </h4>
         <div className="flex flex-row flex-col flex-wrap items-center justify-center w-full md:flex-row xl:w-1/2">
           <input type="text" placeholder="Type last name" className="flex-grow w-full p-4 mb-4 mr-0 border rounded-lg sm:mr-5 md:w-auto border-grey-300 md:mb-0" />
-          <Link to={'/contact'}>
-            <button className="px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
-              Get started
-            </button>
-          </Link>
+          <UniversalButton
+            link="/contact"
+            title="Get started"
+          />
         </div>
 
       </div>
-    </section>
+    </Section>
 
   );
 };

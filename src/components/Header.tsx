@@ -4,6 +4,8 @@ import { Link, useLocation } from 'react-router-dom';
 
 import { LogoHeader } from '../assets/LogoHeader';
 
+import { LayoutButton } from './Buttons/LayoutButton';
+
 import { NavigationLink } from '.';
 
 export const Header = () => {
@@ -38,11 +40,9 @@ export const Header = () => {
 
           <div className="flex flex-col gap-4 md:items-center md:gap-12 md:flex-row">
             <NavigationLink location={location.pathname} route={'/login'} title={'Log In'} />
-            <Link to={'/contact'}>
-              <button className="px-4 py-2 font-medium text-teal-400 border border-teal-400 rounded-full font-inter text-caption1">
-                Schedule Call
-              </button>
-            </Link>
+            <LayoutButton
+              classNames="px-4 py-2 font-medium text-teal-400 border border-teal-400 rounded-full font-inter text-caption1"
+            />
           </div>
         </div>
 

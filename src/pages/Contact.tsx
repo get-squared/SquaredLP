@@ -1,7 +1,7 @@
 import { useFormik } from "formik";
 import * as yup from 'yup';
 
-import { FormInput } from "../components";
+import { FormInput, Section } from "../components";
 import { Fetch } from "../utils/apiCalls";
 
 const validationSchema = yup.object({
@@ -23,7 +23,7 @@ export const Contact = () => {
   });
 
   return (
-    <section className="px-6 lg:px-24 sm:px-9">
+    <Section>
       <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h4 mb-14">Request a demo and pricing</h1>
       <form
         className="flex flex-col xl:w-1/2 md:w-3/4 w-full justify-between mb-24 lg:p-10 p-6 rounded-[32px] bg-gradient-light1 max-[1350px]:justify-center mx-auto"
@@ -55,6 +55,6 @@ export const Contact = () => {
           Submit
         </button>
       </form>
-    </section>
+    </Section>
   );
 };

@@ -1,5 +1,5 @@
 import mockPic from '../assets/mockPic.png';
-import { PersonCard } from "../components";
+import { PersonCard, Section } from "../components";
 
 const mockedArray = [
   { name: 'John Doe', title: 'Stormtrooper', img: mockPic },
@@ -17,7 +17,7 @@ const getShapeStyle = (index: number) => {
 
 export const About = () => {
   return (
-    <section className="px-6 lg:px-24 sm:px-9">
+    <Section>
       <div className="flex flex-col items-center lg:mb-[7.5rem] mb-10 gap-8">
         <h5 className="text-center text-purple-300 text-h5">Our founding team started in </h5>
         <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h4">Big data and competitive intelligence</h1>
@@ -91,6 +91,6 @@ export const About = () => {
 
       </div>
 
-    </section>
+    </Section>
   );
 };

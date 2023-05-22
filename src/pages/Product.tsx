@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 
 import { AIIcon, CompetitorIdentificationIcon, ConvertIcon, HQContentIcon, KeywordIcon, LampIcon, ModelsIcon, PlusIcon, ProductAttributesIcon, YourBrandVoiceIcon } from "../assets";
+import { UniversalButton, Section } from "../components";
 
 export const Product = () => {
   return (
-    <section className="px-6 lg:px-24 sm:px-9">
+    <Section>
       <div className="flex flex-col items-center xl:mb-96 lg:mb-[7.5rem] mb-10 gap-8">
         <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h4">Smarter, faster, better with AI</h1>
         <h6 className="text-center text-white font-inter text-h6 font-base">Squared helps ecommerce professionals maximize their efficiency and output by turning artificial into ‘real’ intelligence</h6>
-        <Link to={'/contact'}>
-          <button className="px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
-            Schedule Call
-          </button>
-        </Link>
+        <UniversalButton
+          link="/contact"
+          title="Schedule Call"
+        />
       </div>
 
       <div className="xl:mb-[21.875rem] xl:w-[66.5%] xl:mx-auto sm:mb-20 mb-8 ">
@@ -112,6 +112,6 @@ export const Product = () => {
           </button>
         </Link>
       </div>
-    </section>
+    </Section>
   );
 };
