@@ -29,9 +29,9 @@ export const FormInput: FC<IFormInput> = ({
         name={name}
         onChange={onChange}
         placeholder={placeholder} 
-        className="p-4 rounded-lg border-gray-300 text-[#6B7280] mb-7" 
+        className={`p-4 rounded-lg border-gray-300 border outline-none ${error ? '' : 'mb-6'}`}
       />
-      {error && <div>{helperText}</div>}
+      {error && <div className="pl-1 mb-1 font-sans text-caption1">{helperText}</div>}
     </>
   );
 };
