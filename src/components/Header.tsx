@@ -13,7 +13,7 @@ export const Header = () => {
   const routes = [{ route: '/product', title: 'Product' }, { route: '/about', title: 'About' }, { route: '/contact', title: 'Contact' }];
 
   return (
-    <header className={`px-8 py-5  transition-all ease-in duration-500 mb-14 ${showMenu ? 'mb-60' : 'md:mb-32'}`}>
+    <header className={`px-8 py-5  transition-all ease-in duration-500 mb-14 ${showMenu ? 'mb-60' : location.pathname === '/' ? 'md:mb-2' : 'md:mb-32'}`}>
       <nav className="gap-4 md:flex md:items-center md:gap-12 md:justify-between">
         <div className="flex items-center justify-between">
           <Link to={'/'}>

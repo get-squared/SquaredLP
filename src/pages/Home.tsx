@@ -5,7 +5,7 @@ import { QualityIcon, ScaleIcon, TimeSavings } from "../assets";
 export const Home = () => {
   return (
     <section className="px-6 lg:px-24 sm:px-9">
-      <div className="flex items-center justify-center mb-16 lg:mb-[7.5rem]">
+      <div className="flex items-center justify-center mb-4 lg:mb-10">
         <div className="absolute z-10 flex flex-col items-center gap-8 py-0 lg:px-24 px-9">
           <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h5">Turn artificial into real intelligence</h1>
           <h6 className="text-center text-white font-inter sm:text-h6 font-base text-p">Maximize your ecommerce research and content creation process with Squared</h6>
@@ -15,7 +15,7 @@ export const Home = () => {
             </button>
           </Link>
         </div>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" className="sm:w-3/5 w-full 2xl:w-[63%]" id="blobSvg">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 50 500 450" className="sm:w-[70%] w-full 2xl:w-[63%]" id="blobSvg">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
               <stop offset="0%" style={{ stopColor: "rgb(126, 237, 244)" }}></stop>
@@ -48,7 +48,7 @@ export const Home = () => {
         </h4>
       </div>
 
-      <div className="flex flex-col items-center justify-between gap-10 mb-10 lg:mb-48 lg:items-start lg:flex-row">
+      <div className="flex flex-col items-center justify-between gap-10 mb-10 2xl:justify-center lg:mb-48 lg:items-start lg:flex-row">
         <div className="flex flex-col justify-center items-center w-[19.5rem] text-center">
           <TimeSavings />
           <h5 className="mt-4 mb-3 text-white lg:mt-10 text-h5">Time savings</h5>
@@ -72,18 +72,21 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-between mb-24 lg:p-[3.75rem] p-6 rounded-[32px] bg-gradient-light1 flex-wrap items-center max-[1350px]:justify-center">
+      <div className="flex justify-between mb-24 lg:p-[3.75rem] p-6 2xl:w-[65%] 2xl:mx-auto  rounded-[32px] bg-gradient-light1 flex-wrap items-center max-[1350px]:justify-center">
         <h4
-          className="pr-3 font-semibold lg:leading-10 text-white lg:text-h4 text-h5 max-[1175px]:pb-4 max-[1175px]:text-center w-1/2 max-[1350px]:w-full max-[1350px]:pb-4 max-[1350px]:text-center max-[840px]:pr-0"
+          className="w-full pb-4 pr-0 font-semibold text-center text-white xl:pr-3 xl:text-start lg:leading-10 lg:text-h4 text-h5 xl:w-1/2"
         >
           Maximize your ecommerce listings today
         </h4>
-        <input type="text" placeholder="Type last name" className="p-4 mr-5 rounded-lg basis-96 max-[840px]:mb-4 max-[840px]:mr-0" />
-        <Link to={'/contact'} className="">
-          <button className="px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
-            Get started
-          </button>
-        </Link>
+        <div className="flex flex-row flex-col flex-wrap items-center justify-center w-full md:flex-row xl:w-1/2">
+          <input type="text" placeholder="Type last name" className="flex-grow w-full p-4 mb-4 mr-0 border rounded-lg sm:mr-5 md:w-auto border-grey-300 md:mb-0" />
+          <Link to={'/contact'}>
+            <button className="px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
+              Get started
+            </button>
+          </Link>
+        </div>
+
       </div>
     </section>
 
