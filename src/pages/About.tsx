@@ -19,9 +19,9 @@ export const About = () => {
   return (
     <Section>
       <div className="flex flex-col items-center lg:mb-[7.5rem] mb-10 gap-8">
-        <h5 className="text-center text-purple-300 text-h5">Our founding team started in </h5>
-        <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h4">Big data and competitive intelligence</h1>
-        <h6 className="text-center text-white text-p font-base">
+        <h5 className="text-center text-purple-300 font-sohne text-h5">Our founding team started in </h5>
+        <h1 className="font-bold text-center text-white font-sohne lg:text-h1 sm:text-h3 text-h4">Big data and competitive intelligence</h1>
+        <h6 className="text-center text-white font-inter text-p font-base">
           We watched customers pay for insights, not intelligence.
           Our goal is to bring our collective knowledge to build a solution that leverages
           data to drive immediate actioning that can make a quantifiable impact on the business
@@ -30,7 +30,7 @@ export const About = () => {
 
       <div className="flex items-center justify-center mb-8">
         <div className="absolute z-10 flex flex-col items-center xl:w-[66.5%] xl:mx-auto py-0 lg:px-24 px-9">
-          <h3 className="font-semibold text-center text-white lg:text-h3 text-h5">
+          <h3 className="font-semibold text-center text-white font-sohne lg:text-h3 text-h5">
             More tools don’t correlate to greater impact
           </h3>
           <p className="text-center text-white font-inter text-p">
@@ -53,7 +53,7 @@ export const About = () => {
 
       <div className="flex items-center justify-center mb-8">
         <div className="absolute z-10 flex flex-col items-center xl:w-[66.5%] xl:mx-auto py-0 lg:px-24 px-9">
-          <h3 className="font-semibold text-center text-white lg:text-h3 text-h5">
+          <h3 className="font-semibold text-center text-white font-sohne lg:text-h3 text-h5">
             The digital shelf and consumer demand kept rising
           </h3>
           <p className="text-center text-white font-inter text-p">
@@ -74,7 +74,7 @@ export const About = () => {
       </div>
 
       <div className="flex flex-col gap-10 mb-16 xl:gap-32 lg:gap-16 lg:mb-48">
-        <h3 className="font-semibold text-center text-purple-300 lg:text-h3 text-h4">
+        <h3 className="font-semibold text-center text-purple-300 font-sohne lg:text-h3 text-h4">
           Our leaders
         </h3>
         <div className="flex flex-wrap justify-center gap-10 xl:gap-32 lg:gap-16">

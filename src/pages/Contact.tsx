@@ -24,7 +24,7 @@ export const Contact = () => {
 
   return (
     <Section>
-      <h1 className="font-bold text-center text-white lg:text-h1 sm:text-h3 text-h4 mb-14">Request a demo and pricing</h1>
+      <h1 className="font-bold text-center text-white lg:text-h1 font-sohne sm:text-h3 text-h4 mb-14">Request a demo and pricing</h1>
       <form
         className="flex flex-col xl:w-1/2 md:w-3/4 w-full justify-between mb-24 lg:p-10 p-6 rounded-[32px] bg-gradient-light1 max-[1350px]:justify-center mx-auto"
         onSubmit={formik.handleSubmit}

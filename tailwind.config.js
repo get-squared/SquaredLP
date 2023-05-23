@@ -37,6 +37,7 @@ export default {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
         'sans': ['Helvetica'],
+        sohne: ['Söhne Kräftig', 'sans-serif', 'system-ui'],
       },
       fontSize: {
         'h1': '56px',
