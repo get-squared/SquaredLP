@@ -27,7 +27,7 @@ export const Product = () => {
         <h2 className="font-bold text-center text-teal-400 font-sohne lg:text-h2 text-h4 lg:mb-28 mb-7">The Squared solution</h2>
         <h3 className="mb-4 font-bold text-center font-sohne text-grey-300 lg:text-h2 text-h4 lg:mb-14">Research</h3>
 
-        <div className="flex flex-col items-center justify-between gap-8 min-[1025px]:items-stretch min-[1025px]:flex-row 2xl:w-[65%] 2xl:mx-auto">
+        <div className="flex flex-col items-center justify-between gap-8 min-[1025px]:items-stretch min-[1025px]:flex-row 2xl:w-[70%] 2xl:mx-auto">
           <div className="flex flex-col justify-center items-center sm:w-96 text-center bg-gradient-medium rounded-[32px] px-10 py-12">
             <CompetitorIdentificationIcon />
             <h5 className="mb-3 text-white xl:mt-10 font-sohne lg:mt-6 text-h5">Competitor identification</h5>
@@ -54,7 +54,7 @@ export const Product = () => {
 
       <div className="mb-10 lg:mb-48 xl:mb-80">
         <h3 className="mb-4 font-bold text-center text-grey-300 lg:text-h2 text-h4 lg:mb-14">Create</h3>
-        <div className="flex flex-col items-center justify-between gap-8 mb-10 lg:mb-48 lg:items-stretch lg:flex-row 2xl:w-[65%] 2xl:mx-auto">
+        <div className="flex flex-col items-center justify-between gap-8 mb-10 lg:mb-48 lg:items-stretch lg:flex-row 2xl:w-[70%] 2xl:mx-auto">
           <div className="flex flex-col justify-center items-center text-center lg:w-1/2  w-full bg-gradient-medium rounded-[32px] px-10 py-12">
             <HQContentIcon />
             <h5 className="mb-3 text-white lg:mt-10 font-sohne text-h5">High quality content</h5>
@@ -74,7 +74,7 @@ export const Product = () => {
 
       <div className="lg:mb-44 mb-14">
         <h2 className="font-bold text-center text-teal-400 font-sohne lg:text-h2 text-h4 lg:mb-28 mb-7">How are we doing it and why are we different?</h2>
-        <div className="flex flex-col items-center justify-between gap-4 min-[1040px]:items-baseline min-[1040px]:flex-row 2xl:w-[65%] 2xl:mx-auto">
+        <div className="flex flex-col items-center justify-between gap-4 min-[1040px]:items-baseline min-[1040px]:flex-row 2xl:w-[70%] 2xl:mx-auto">
           <div className="flex flex-col items-center justify-center text-center">
             <div className="rounded-full bg-gradient-medium p-14 w-[200px] h-[200px] mb-7 flex justify-center items-center">
               <AIIcon />
@@ -98,7 +98,7 @@ export const Product = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-5 bg-gradient-light1 mb-24 lg:p-[3.75rem] p-6 rounded-[32px] 2xl:w-[65%] 2xl:mx-auto">
+      <div className="flex flex-col gap-5 bg-gradient-light1 mb-24 lg:p-[3.75rem] p-6 rounded-[32px] 2xl:w-[70%] 2xl:mx-auto">
         <div className="flex items-center justify-between gap-2">
           <LampIcon />
           <h3 className="text-white font-sohne text-h4">Did you know 75% of Amazon listings do not pass best practice evaluations?</h3>

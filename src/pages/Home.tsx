@@ -70,7 +70,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-between mb-24 lg:p-[3.75rem] p-6 2xl:w-[65%] 2xl:mx-auto  rounded-[32px] bg-gradient-light1 flex-wrap items-center max-[1350px]:justify-center">
+      <div className="flex justify-between mb-24 lg:p-[3.75rem] p-6 2xl:w-[70%] 2xl:mx-auto  rounded-[32px] bg-gradient-light1 flex-wrap items-center max-[1350px]:justify-center">
         <h4
           className="w-full pb-4 pr-0 font-semibold text-center text-white font-sohne xl:pr-3 xl:text-start lg:leading-10 lg:text-h4 text-h5 xl:w-1/2"
         >
