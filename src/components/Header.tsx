@@ -39,7 +39,7 @@ export const Header = () => {
           </div>
 
           <div className="flex flex-col gap-4 md:items-center md:gap-12 md:flex-row">
-            <NavigationLink location={location.pathname} route={'/login'} title={'Log In'} />
+            <NavigationLink location={location.pathname} route={'https://getsquared.io'} title={'Log In'} target/>
             <LayoutButton
               classNames="px-4 py-2 font-medium text-teal-400 border border-teal-400 rounded-full font-inter text-caption1"
             />

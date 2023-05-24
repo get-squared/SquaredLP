@@ -10,7 +10,7 @@ const validationSchema = yup.object({
 });
 
 export const Contact = () => {
-  const fetch = new Fetch();
+  const fetch = new Fetch('https://support@getsquared.io');
   const formik = useFormik({
     initialValues: {
       name: "",

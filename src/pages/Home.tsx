@@ -77,9 +77,9 @@ export const Home = () => {
           Maximize your ecommerce listings today
         </h4>
         <div className="flex flex-col flex-wrap items-center justify-center w-full md:flex-row xl:w-1/2">
-          <input type="text" placeholder="Type last name" className="flex-grow w-full p-4 mb-4 mr-0 border rounded-lg sm:mr-5 md:w-auto border-grey-300 md:mb-0" />
+          <input type="text" placeholder="Type last name" className="flex-grow w-full p-4 mb-4 mr-0 border border-gray-300 rounded-lg outline-none sm:mr-5 md:w-auto md:mb-0" />
           <UniversalButton
-            link="/contact"
+            link="https://edo.s@getsquared.io"
             title="Get started"
           />
         </div>
