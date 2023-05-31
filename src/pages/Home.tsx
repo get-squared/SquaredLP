@@ -9,7 +9,7 @@ export const Home = () => {
           <h1 className="font-bold text-center text-white font-sohne lg:text-h1 sm:text-h3 text-h5">Turn artificial into real intelligence</h1>
           <h6 className="text-center text-white font-inter sm:text-h6 font-base text-p">Maximize your ecommerce research and content creation process with Squared</h6>
           <UniversalButton
-            link="/contact"
+            link="http://calendly.com/edo-s_get_squared/30min"
             title="Schedule a Call"
           />
         </div>
@@ -79,7 +79,7 @@ export const Home = () => {
         <div className="flex flex-col flex-wrap items-center justify-center w-full md:flex-row xl:w-1/2">
           <input type="text" placeholder="Type last name" className="flex-grow w-full p-4 mb-4 mr-0 border border-gray-300 rounded-lg outline-none sm:mr-5 md:w-auto md:mb-0" />
           <UniversalButton
-            link="https://edo.s@getsquared.io"
+            link="http://calendly.com/edo-s_get_squared/30min"
             title="Get started"
           />
         </div>

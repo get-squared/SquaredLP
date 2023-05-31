@@ -10,7 +10,7 @@ export const Product = () => {
         <h1 className="font-bold text-center text-white font-sohne lg:text-h1 sm:text-h3 text-h4">Smarter, faster, better with AI</h1>
         <h6 className="text-center text-white font-inter text-h6 font-base">Squared helps ecommerce professionals maximize their efficiency and output by turning artificial into ‘real’ intelligence</h6>
         <UniversalButton
-          link="/contact"
+          link="http://calendly.com/edo-s_get_squared/30min"
           title="Schedule a Call"
         />
       </div>
@@ -79,7 +79,7 @@ export const Product = () => {
             <div className="rounded-full bg-gradient-medium p-14 w-[200px] h-[200px] mb-7 flex justify-center items-center">
               <AIIcon />
             </div>
-            <h5 className="w-64 font-sohne text-h5 text-grey-300">OpenAi</h5>
+            <h5 className="w-64 font-sohne text-h5 text-grey-300">Best in class Foundational Models</h5>
           </div>
           <PlusIcon />
           <div className="flex flex-col items-center justify-center text-center">
@@ -106,7 +106,7 @@ export const Product = () => {
         <p className="text-white font-inter text-h6">
           It's time to find out how much visibility and sales your product is losing by not having an optimized listing.
         </p>
-        <Link to={'/contact'}>
+        <Link to={'http://calendly.com/edo-s_get_squared/30min'}>
           <button className="float-right px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
             Schedule a Call
           </button>
