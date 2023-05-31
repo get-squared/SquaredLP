@@ -1,4 +1,3 @@
-import { FaDribbble, FaGithub, FaTwitter, FaFacebook } from 'react-icons/fa';
 
 import { FooterLink } from '..';
 import { LogoFooter } from '../../assets/LogoFooter';
@@ -14,11 +13,8 @@ export const Footer = () => {
           <div className="flex flex-col gap-[1.875rem] max-[550px]:gap-4">
             <FooterLink link="/" title="Home"/>
             <FooterLink link="/product" title="Product"/>
-            <FooterLink link="/" title="Customers"/>
           </div>
           <div className="flex flex-col gap-[1.875rem] max-[550px]:gap-4">
-            <FooterLink link="/" title="Pricing"/>
-            <FooterLink link="/about" title="About"/>
           </div>
         </div>
         <LayoutButton
@@ -27,12 +23,6 @@ export const Footer = () => {
       </div>
       <div className="flex justify-between max-[550px]:flex-col max-[550px]:items-center max-[550px]:gap-4">
         <LogoFooter />
-        <div className="flex gap-7">
-          <FaGithub className="text-grey-300" />
-          <FaTwitter className="text-grey-300" />
-          <FaDribbble className="text-grey-300" />
-          <FaFacebook className="text-grey-300" />
-        </div>
       </div>
     </footer>
   );

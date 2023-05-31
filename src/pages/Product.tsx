@@ -11,7 +11,7 @@ export const Product = () => {
         <h6 className="text-center text-white font-inter text-h6 font-base">Squared helps ecommerce professionals maximize their efficiency and output by turning artificial into ‘real’ intelligence</h6>
         <UniversalButton
           link="/contact"
-          title="Schedule Call"
+          title="Schedule a Call"
         />
       </div>
 
@@ -108,7 +108,7 @@ export const Product = () => {
         </p>
         <Link to={'/contact'}>
           <button className="float-right px-4 py-2 text-base font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
-            Schedule Call
+            Schedule a Call
           </button>
         </Link>
       </div>

@@ -4,7 +4,7 @@ export const LayoutButton = ({ classNames }: { classNames: string }) => {
   return (
     <Link to={'/contact'}>
       <button className={classNames}>
-        Schedule Call
+        Schedule a Call
       </button>
     </Link>
   );

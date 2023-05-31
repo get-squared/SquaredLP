@@ -12,7 +12,7 @@ export const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const location = useLocation();
 
-  const routes = [{ route: '/product', title: 'Product' }, { route: '/about', title: 'About' }, { route: '/contact', title: 'Contact' }];
+  const routes = [{ route: '/product', title: 'Product' }, { route: '/contact', title: 'Contact' }];
 
   return (
     <header className={`px-8 py-5  transition-all ease-in duration-500 mb-14 ${showMenu ? 'mb-60' : location.pathname === '/' ? 'md:mb-2' : 'md:mb-32'}`}>

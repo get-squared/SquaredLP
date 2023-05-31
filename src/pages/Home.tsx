@@ -10,7 +10,7 @@ export const Home = () => {
           <h6 className="text-center text-white font-inter sm:text-h6 font-base text-p">Maximize your ecommerce research and content creation process with Squared</h6>
           <UniversalButton
             link="/contact"
-            title="Schedule Call"
+            title="Schedule a Call"
           />
         </div>
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 50 500 450" className="sm:w-[70%] w-full 2xl:w-[55%]" id="blobSvg">
