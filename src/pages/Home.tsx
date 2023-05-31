@@ -42,7 +42,7 @@ export const Home = () => {
 
       <div className="xl:mb-[9.375rem] xl:w-[66.5%] xl:mx-auto sm:mb-20 mb-8 ">
         <h4 className="font-semibold text-center font-sohne lg:leading-10 text-grey-300 lg:text-h4 text-h6">
-          You no longer need multiple bespoke to create the <span className="text-purple-400">best product listing.</span> Square will improve your efficiency and performance at scale
+          You no longer need multiple bespoke solutions to create the <span className="text-purple-400">best product listing.</span> Squared will improve your efficiency and performance at scale
         </h4>
       </div>
 
