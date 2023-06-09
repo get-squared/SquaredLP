@@ -26,9 +26,11 @@ export const Product = () => {
       </div>
 
       <div className="xl:mb-36 xl:w-[66.5%] xl:mx-auto sm:mb-20 mb-8 ">
-        <h3 className="text-center text-teal-400 font-titles lg:text-h3 text-h5">Our vision</h3>
+        <h3 className="text-center text-teal-400 font-titles lg:text-h3 text-h5 mb-3">Our vision</h3>
         <p className="text-center font-inter text-h6 text-grey-300">
-          A solution that consolidates all useful information for your ecommerce business into one place and leverages generative AI to make you smarter, faster and more efficient.<br/>
+          A solution that consolidates all useful information for your ecommerce business into one place and leverages generative AI to make you
+          smarter, faster and more efficient.
+          <br />
           Drive greater sales and profitability through rapid learning and actionability.
         </p>
       </div>
@@ -121,11 +123,12 @@ export const Product = () => {
           </p>
         </div>
         <div className="flex flex-col justify-end">
-        <Link to={"http://calendly.com/edo-s_get_squared/30min"}>
-          <button className="float-right px-4 py-2 text-base whitespace-nowrap font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
-            Schedule a Call
-          </button>
-        </Link></div>
+          <Link to={"http://calendly.com/edo-s_get_squared/30min"}>
+            <button className="float-right px-4 py-2 text-base whitespace-nowrap font-medium text-white bg-purple-400 border border-purple-400 rounded-full font-inter">
+              Schedule a Call
+            </button>
+          </Link>
+        </div>
       </div>
     </Section>
   );
