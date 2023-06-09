@@ -12,7 +12,7 @@ export const PersonCard: FC<IPersonCard> = ({ name, title, style, img }) => {
   return(
     <div className="flex flex-col items-center">
       <img src={img} alt={`${name}-${title}`} className={`${style} cardMask mb-7`}/>
-      <h5 className="mb-2 text-purple-300 font-sohne text-h5">
+      <h5 className="mb-2 text-purple-300 font-titles text-h5">
         {name}
       </h5>
       <h6 className="text-h6 text-grey-300">
