@@ -5,7 +5,7 @@ import { Home, Contact, Product } from "./pages";
 
 function Forworder() {
   const { id } = useParams();
-  window.location.href = "https://getsquared.io/listing/" + id;
+  window.location.href = "https://app.getsquared.io/listing/" + id;
   return null;
 }
 
@@ -17,10 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/product" element={<Product />} />
           <Route path="/contact" element={<Contact />} />
-          <Route
-            path="/listing/:id"
-            element={<Forworder />}
-          />
+          <Route path="/listing/:id" element={<Forworder />} />
         </Route>
       </Routes>
     </BrowserRouter>

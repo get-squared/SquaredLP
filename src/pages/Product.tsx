@@ -35,8 +35,8 @@ export const Product = () => {
         </p>
       </div>
 
-      <div className="mb-10 lg:mb-28">
-        <h2 className="text-center text-teal-400 font-titles lg:text-h2 text-h4 lg:mb-32 mb-7">The Squared solution</h2>
+      <div className="mb-12 lg:mb-28">
+        <h2 className="text-center text-teal-400 font-titles lg:text-h2 text-h4 lg:mb-20 mb-7">The Squared solution</h2>
         <h3 className="mb-4 text-center font-titles text-grey-300 lg:text-h2 text-h4 lg:mb-14">Research</h3>
 
         <div className="flex flex-col items-center justify-between gap-8 min-[1025px]:items-stretch min-[1025px]:flex-row 2xl:w-[70%] 2xl:mx-auto">
@@ -62,9 +62,9 @@ export const Product = () => {
             </p>
           </div>
         </div>
-        <h3 className="mb-4 text-center font-titles text-grey-300 lg:text-h2 text-h4 lg:mb-14 lg:mt-32">Create</h3>
+        <h3 className="mb-4 text-center font-titles text-grey-300 lg:text-h2 text-h4 mt-8 lg:mb-14 lg:mt-32">Create</h3>
         <div className="flex flex-col items-center justify-between gap-8 mb-10 lg:mb-48 lg:items-stretch lg:flex-row 2xl:w-[70%] 2xl:mx-auto">
-          <div className="flex flex-col justify-center items-center text-center lg:w-1/2  w-full bg-gradient-medium rounded-[32px] px-10 py-12">
+          <div className="flex flex-col justify-center items-center text-center sm:w-96 lg:w-1/2  w-full bg-gradient-medium rounded-[32px] px-10 py-12">
             <HQContentIcon />
             <h5 className="mb-3 text-white lg:mt-10 font-titles text-h5">High quality content</h5>
             <p className="leading-5 text-sans text-grey-300 lg:text-p text-caption1">
@@ -72,7 +72,7 @@ export const Product = () => {
               linguistically
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center text-center lg:w-1/2  w-full bg-gradient-medium rounded-[32px] px-10 py-12">
+          <div className="flex flex-col justify-center items-center text-center sm:w-96 lg:w-1/2  w-full bg-gradient-medium rounded-[32px] px-10 py-12">
             <YourBrandVoiceIcon />
             <h5 className="mb-3 text-white lg:mt-10 font-titles text-h5">Your brand voice</h5>
             <p className="leading-5 text-sans text-grey-300 lg:text-p text-caption1">
@@ -83,10 +83,8 @@ export const Product = () => {
       </div>
 
       <div className="lg:mb-44 mb-14">
-        <h2 className="text-center text-teal-400 font-titles lg:text-h2 text-h4 lg:mb-28 mb-7">
-          How are we doing it and
-          <br />
-          why are we different?
+        <h2 className="text-center text-teal-400 font-titles lg:text-h2 text-h4 lg:mb-28 mb-7 lg:w-1/2 lg:mx-auto">
+          How are we doing it and why are we different?
         </h2>
         <div className="flex flex-col items-center justify-between gap-4 min-[1040px]:items-baseline min-[1040px]:flex-row 2xl:w-[70%] 2xl:mx-auto">
           <div className="flex flex-col items-center justify-center text-center">
