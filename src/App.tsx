@@ -1,17 +1,23 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
 
 import { Layout } from "./components";
-import { Home, About, Contact, Product } from "./pages";
+import { Home, Contact, Product } from "./pages";
+
+function Forworder() {
+  const { id } = useParams();
+  window.location.href = "https://app.getsquared.io/listing/" + id;
+  return null;
+}
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Layout/>}>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/product" element={<Product/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/listing/:id" element={<Forworder />} />
         </Route>
       </Routes>
     </BrowserRouter>

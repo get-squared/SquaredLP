@@ -8,6 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --ext ts,tsx --fix",
+    "serve": "vite preview",
+    "start": "serve -s dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,6 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "serve": "^12.0.0",
     "react-router-dom": "^6.11.1",
     "yup": "^1.1.1"
   },

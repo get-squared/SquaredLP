@@ -4,8 +4,9 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Söhne Kräftig";
-    src: url('../src/fonts/soehne-kraftig.woff2') format('woff');
+    font-family: "Titles font";
+    /* src: url('../src/fonts/test-soehne-breit-kraftig.woff2') format('woff'); */
+    src: url('../src/fonts/daysone-regular.ttf') format('woff');
     font-weight: 500;
     font-style: normal;
 }

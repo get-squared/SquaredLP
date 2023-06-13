@@ -12,7 +12,8 @@ export const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const location = useLocation();
 
-  const routes = [{ route: '/product', title: 'Product' }, { route: '/about', title: 'About' }, { route: '/contact', title: 'Contact' }];
+  const routes = [{ route: '/product', title: 'Product' }, { route: 'http://calendly.com/edo-s_get_squared/30min', title: 'Contact', external: true }];
+
 
   return (
     <header className={`px-8 py-5  transition-all ease-in duration-500 mb-14 ${showMenu ? 'mb-60' : location.pathname === '/' ? 'md:mb-2' : 'md:mb-32'}`}>
@@ -39,7 +40,7 @@ export const Header = () => {
           </div>
 
           <div className="flex flex-col gap-4 md:items-center md:gap-12 md:flex-row">
-            <NavigationLink location={location.pathname} route={'https://getsquared.io'} title={'Log In'} target/>
+            <NavigationLink location={location.pathname} route={'https://app.getsquared.io'} title={'Log In'} target/>
             <LayoutButton
               classNames="px-4 py-2 font-medium text-teal-400 border border-teal-400 rounded-full font-inter text-caption1"
             />
