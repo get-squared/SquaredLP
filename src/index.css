@@ -6,7 +6,8 @@
 @font-face {
     font-family: "Titles font";
     /* src: url('../src/fonts/test-soehne-breit-kraftig.woff2') format('woff'); */
-    src: url('../src/fonts/daysone-regular.ttf') format('woff');
-    font-weight: 500;
+    /* src: url('../src/fonts/daysone-regular.ttf') format('woff'); */
+    src: url('../src/fonts/Montserrat-500-600.ttf') format('woff');
+    font-weight: 600;
     font-style: normal;
 }
